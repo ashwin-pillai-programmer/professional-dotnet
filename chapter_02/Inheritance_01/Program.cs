@@ -29,6 +29,7 @@ namespace inheritance_01
         public static void Main(string[] args)
         {
             Console.WriteLine("Program to create a class with inheritance with C# in Visual Studio\n");
+
             // Create an object of the Dog class
             Dog myDog = new Dog();
 
