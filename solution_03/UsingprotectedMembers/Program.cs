@@ -4,7 +4,7 @@
 // Base class
 public class Appliance
 {
-    public string brand;
+    protected string brand;
 
     public Appliance(string brandName)
     {
