@@ -6,10 +6,10 @@ namespace NullableTypesandMethods_01
     public class Program
     {
         // Method that taks nullable integer as parameter
-        public static void CheckAge(int? age)
+        public static void Checkage(int? age)
         {
             // Using a Conditional check to check if age has any value
-            if (age.HasValue)
+            if(age.HasValue)
             {
                 // Output the age if it is not null.
                 Console.WriteLine($"Age: {age.Value}");
@@ -25,11 +25,11 @@ namespace NullableTypesandMethods_01
             Console.WriteLine("Program to use Nullable Types and Methods with C# in Visual Studio\n");
 
             // Calling 'CheckAge' with a null integer
-            CheckAge(null);
+            Checkage(null);
 
             // Calling 'CheckAge' with a valid integer
-            CheckAge(24);
+            Checkage(25); 
         }
-        
+
     }
 }

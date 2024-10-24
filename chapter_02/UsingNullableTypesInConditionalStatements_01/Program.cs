@@ -14,12 +14,13 @@ namespace UsingNullableTypesInConditionalStatements_01
 
             // Conditional (ternary) operator to check if 'myNullableChar' has a value.
             // If true, the character is returned; otherwise, a default character is returned.
-            char displaychar = myNullableChar.HasValue ? myNullableChar.Value : 'Z';
+            
+            var displaychar = myNullableChar.HasValue ? myNullableChar.Value : 'Z';    
 
             Console.WriteLine($"Display character: {displaychar}");
 
             // Setting the Nullable character to null
-            myNullableChar = null;
+             myNullableChar = null;
 
             // Now the conditional will use the defualt character 'Z' because myNullableChar is null
             displaychar = myNullableChar.HasValue ? myNullableChar.Value : 'Z';

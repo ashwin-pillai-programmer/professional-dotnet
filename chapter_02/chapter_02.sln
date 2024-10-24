@@ -3,15 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleClassExample_01", "SimpleClassExample_01\SimpleClassExample_01.csproj", "{F23BDD2A-F21D-4DDD-94C1-956DE6E61323}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleClassExample_01", "SimpleClassExample_01\SimpleClassExample_01.csproj", "{F23BDD2A-F21D-4DDD-94C1-956DE6E61323}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWithConstructor_01", "ClassWithConstructor_01\ClassWithConstructor_01.csproj", "{2A607AFA-E88B-4F85-A7EB-64141DCC3E2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassWithConstructor_01", "ClassWithConstructor_01\ClassWithConstructor_01.csproj", "{2A607AFA-E88B-4F85-A7EB-64141DCC3E2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasswithMultipleMethods_01", "ClasswithMultipleMethods_01\ClasswithMultipleMethods_01.csproj", "{C1A5CE1D-BF3E-4DBB-A245-0C19D220B59C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClasswithMultipleMethods_01", "ClasswithMultipleMethods_01\ClasswithMultipleMethods_01.csproj", "{C1A5CE1D-BF3E-4DBB-A245-0C19D220B59C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasswithProperties(Advanced Fields)_01", "ClasswithProperties(Advanced Fields)_01\ClasswithProperties(Advanced Fields)_01.csproj", "{D6D5AB55-AC07-4B50-A9FC-2222F1AA6481}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClasswithProperties(Advanced Fields)_01", "ClasswithProperties(Advanced Fields)_01\ClasswithProperties(Advanced Fields)_01.csproj", "{D6D5AB55-AC07-4B50-A9FC-2222F1AA6481}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance_01", "Inheritance_01\Inheritance_01.csproj", "{5B45EA35-DCBA-40C4-85A0-CC9E92B16622}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance_01", "Inheritance_01\Inheritance_01.csproj", "{5B45EA35-DCBA-40C4-85A0-CC9E92B16622}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsageofNullableTypes_01", "UsageofNullableTypes_01\UsageofNullableTypes_01.csproj", "{6BF6C628-2CB8-4D6D-823D-F0CC35B90D56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingNullCoalescingOperator_01", "UsingNullCoalescingOperator_01\UsingNullCoalescingOperator_01.csproj", "{5437D1F3-6F54-4235-9868-0A9CC8A13229}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingGetValueOrDefault()Method_01", "UsingGetValueOrDefault()Method_01\UsingGetValueOrDefault()Method_01.csproj", "{312CB7F7-77C3-4C23-8739-9A6CE89598BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{EF5605F5-CEF7-434E-8DC7-05CA4405092A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingNullableTypesInConditionalStatements_01", "UsingNullableTypesInConditionalStatements_01\UsingNullableTypesInConditionalStatements_01.csproj", "{4C650534-1C34-4775-BA9F-43080135C46F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullableTypesandMethods_01", "NullableTypesandMethods_01\NullableTypesandMethods_01.csproj", "{B74165AB-3066-4BB7-92A2-48DD43DBE9C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +51,30 @@ Global
 		{5B45EA35-DCBA-40C4-85A0-CC9E92B16622}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B45EA35-DCBA-40C4-85A0-CC9E92B16622}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B45EA35-DCBA-40C4-85A0-CC9E92B16622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BF6C628-2CB8-4D6D-823D-F0CC35B90D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BF6C628-2CB8-4D6D-823D-F0CC35B90D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BF6C628-2CB8-4D6D-823D-F0CC35B90D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BF6C628-2CB8-4D6D-823D-F0CC35B90D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5437D1F3-6F54-4235-9868-0A9CC8A13229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5437D1F3-6F54-4235-9868-0A9CC8A13229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5437D1F3-6F54-4235-9868-0A9CC8A13229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5437D1F3-6F54-4235-9868-0A9CC8A13229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{312CB7F7-77C3-4C23-8739-9A6CE89598BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{312CB7F7-77C3-4C23-8739-9A6CE89598BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{312CB7F7-77C3-4C23-8739-9A6CE89598BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{312CB7F7-77C3-4C23-8739-9A6CE89598BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF5605F5-CEF7-434E-8DC7-05CA4405092A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF5605F5-CEF7-434E-8DC7-05CA4405092A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF5605F5-CEF7-434E-8DC7-05CA4405092A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF5605F5-CEF7-434E-8DC7-05CA4405092A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C650534-1C34-4775-BA9F-43080135C46F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C650534-1C34-4775-BA9F-43080135C46F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C650534-1C34-4775-BA9F-43080135C46F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C650534-1C34-4775-BA9F-43080135C46F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B74165AB-3066-4BB7-92A2-48DD43DBE9C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B74165AB-3066-4BB7-92A2-48DD43DBE9C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B74165AB-3066-4BB7-92A2-48DD43DBE9C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B74165AB-3066-4BB7-92A2-48DD43DBE9C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
